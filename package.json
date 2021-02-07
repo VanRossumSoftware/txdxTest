@@ -22,6 +22,9 @@
   "peerDependencies": {
     "react": ">=16"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "jest": {
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
@@ -34,7 +37,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@vanrossumsoftware/toggle",
+  "name": "@vanrossumsoftware/txdxtest",
   "author": "Brad Van Rossum",
   "module": "dist/toggle.esm.js",
   "size-limit": [
