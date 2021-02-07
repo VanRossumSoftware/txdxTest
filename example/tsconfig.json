@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": false,
+    "allowSyntheticDefaultImports": true,
     "target": "es5",
     "module": "commonjs",
     "jsx": "react",
@@ -10,6 +10,7 @@
     "noUnusedParameters": false,
     "removeComments": true,
     "strictNullChecks": true,
+    "esModuleInterop": false,
     "preserveConstEnums": true,
     "sourceMap": true,
     "lib": ["es2015", "es2016", "dom"],
